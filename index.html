@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClimaTec</title>
+    <meta name="description" content="Página web de blog de café">
+
+    <!-- Prefetch -->
+    <link rel="prefetch" href="nosotros.html" as="document">
+
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"  crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Clima<span class="logo__bold">Tec</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="beneficios.html" class="navegacion__enlace">Beneficios</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Acompañanos a climatizar de manera perfecta tu vida</h2>
+            <p class="no-margin">Cada uno de nuestros productos estan hechos a tu medida</p>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Nuestros productos</h3>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy"  srcset="img/producto1.webp" type="image/webp">
+                        <img loading="lazy" src="img/producto1.jpg" alt="imagen blog"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Aire acondicionado de 12,000 Btu</h4>
+                    <p>Es la maquina de aire acondicionado perfecta para cuartos pequeños, lo que la hace economica y eficiente mientras se esta funcionando.</p>
+                    <a href="producto1.html" class="boton boton--primario">Conocer más</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy"  srcset="img/producto2.webp" type="image/webp">
+                        <img loading="lazy" src="img/producto2.jpg" alt="imagen blog"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Aire acondicionado de 18,000 Btu</h4>
+                    <p>Es la maquina de aire acondicionado perfecta para cuartos medianos, lo que la hace la mas versatil a la hora de cubrir distintos espacios.</p>
+                    <a href="producto2.html" class="boton boton--primario">Conocer más</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy"  srcset="img/producto3.webp" type="image/webp">
+                        <img loading="lazy" src="img/producto3.jpg" alt="imagen blog"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Aire acondicionado de 24,000 Btu</h4>
+                    <p>Es la maquina de aire acondicionado perfecta para cuartos grandes, por lo que es la mas poderosa a la hora de enfriar cuartos de gran tamaño.</p>
+                    <a href="producto3.html" class="boton boton--primario">Conocer más</a>
+                </div>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <h3>Nuestros servicios</h3>
+
+            <ul class="cursos no-padding">
+
+                <li class="widget-curso">
+                    <h4 class="no-margin">Planificacion sobre equipos y accesorios a usar</h4>
+                    <p class="widget-curso__label">Precio: 
+                        <span class="widget-curso__info">Gratis</span>
+                    </p>
+
+                    <a href="Servicio1.html" class="boton boton--secundario">Más Información</a>
+                </li>
+
+                <li class="widget-curso">
+                    <h4 class="no-margin">Mantenimiento del equipo</h4>
+                    <p class="widget-curso__label">Precio: 
+                        <span class="widget-curso__info">Gratis</span>
+                    </p>
+
+                    <a href="Servicio2.html" class="boton boton--secundario">Más Información</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Clima<span class="logo__bold">Tec</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="beneficios.html" class="navegacion__enlace">Beneficios</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
