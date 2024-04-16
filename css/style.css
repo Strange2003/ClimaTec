@@ -105,7 +105,7 @@ img {
 @media (min-width: 768px) {
     .navegacion {
         display: flex;
-        gap: 2rem;
+        gap: 1.5rem;
     }
 }
 .navegacion__enlace {
@@ -113,11 +113,17 @@ img {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 2rem;
-    padding: 0.8rem;
+    padding: 0.5rem;
+    margin: 1rem auto;
+    max-width: 80%;
     font-size: 1.8rem;
     color: var(--blanco);
 }
-
+@media (min-width: 768px) {
+    .navegacion__enlace {
+        padding: 2rem;
+    }
+}
 @media (min-width: 768px) {
     .contenido-principal {
         display: grid;
@@ -239,6 +245,7 @@ img {
     height: 40rem;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 7% center;
 }
 
 .formulario {
